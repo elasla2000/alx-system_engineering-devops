@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $elasla2000"
+alias lsa='ls -a'
