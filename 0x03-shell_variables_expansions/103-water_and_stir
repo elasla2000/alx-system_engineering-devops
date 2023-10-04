@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Result in base bestchol: $(echo "ibase=water;obase=bestchol;$WATER + $STIR" | bc)"
+export bestchol=$(python -c "print(int('$WATER', 5) + int('$STIR', 4))")
